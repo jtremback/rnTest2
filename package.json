@@ -1,0 +1,16 @@
+{
+  "name": "rnTest2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh",
+    "babel": "babel js -w --stage=1 --out-dir built"
+  },
+  "dependencies": {
+    "nuclear-js": "^1.0.2",
+    "react-native": "^0.4.4"
+  },
+  "devDependencies": {
+    "babel": "^5.4.7"
+  }
+}
